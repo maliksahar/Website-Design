@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class=" fa fa-bars "></i>
+        </div>
+     
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/premium_photo.jpg" alt="">
+                <h4>Evert Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos. Impedit maiores autem cum,
+                    doloribus deleniti corporis blanditiis excepturi quia molestias 
+                     </p>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/premium_photo.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quos. Impedit maiores autem cum,
+                    doloribus deleniti corporis blanditiis excepturi quia molestias </p>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, expedita. Similique, libero quod? Eveniet
+                exercitationem, illo iste quos voluptatibus sint quae fuga iure explicabo possimus laudantium unde
+                praesentium reprehenderit animi.</P>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In provident voluptates laudantium, enim
+                    quo harum doloribus doloremque! Voluptatum, iure. Impedit numquam quod explicabo reprehenderit at
+                    ratione cumque nihil tempore optio.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <div class="image-col">
+                    <img src="img/john-towner-3Kv48NS4WUU-unsplash.jpg" alt="">
+                    <img src="img/ales-krivec-okzxVsJNxXc-unsplash.jpg" alt="">
+                    <img src="img/eberhard-grossgasteiger-cs0sK0gzqCU-unsplash.jpg" alt="">
+                    <img src="img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+      <section class="footer">
+        <p>123 Fifth Avenue ,NY 10160 ,New York ,USA | Phone: 800-123-456 | Email: malik@123444.com</p>
+        <p>Copyright @ 2020 Outdoor Adventure</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+
+</html>
